@@ -1,0 +1,22 @@
+{
+    "data_columns": [
+        "experience",
+        "age",
+        "skill_score",
+        "education_Masters",
+        "education_PhD",
+        "city_Bangalore",
+        "city_Chennai",
+        "city_Delhi",
+        "city_Hyderabad",
+        "city_Mumbai",
+        "city_Pune",
+        "city_Surat",
+        "department_Finance",
+        "department_HR",
+        "department_IT",
+        "department_Marketing",
+        "department_Operations",
+        "department_Sales"
+    ]
+}

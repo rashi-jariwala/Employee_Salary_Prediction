@@ -1,0 +1,8 @@
+Flask
+pandas
+numpy
+scikit-learn
+openpyxl
+pymongo
+flask-jwt-extended
+Werkzeug
