@@ -917,7 +917,7 @@ def health():
 if __name__ == "__main__":
 
     app.run(
-        host=getattr(config.Config, "FLASK_HOST", "0.0.0.0"),
-        port=getattr(config.Config, "FLASK_PORT", 5000),
-        debug=True
+        host=config.Config.HOST,
+        port=config.Config.PORT,
+        debug=config.Config.DEBUG
     )

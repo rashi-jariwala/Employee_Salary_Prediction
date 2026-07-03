@@ -1,5 +1,6 @@
 import os
 
+
 class Config:
 
     # Flask Secret Key
@@ -15,6 +16,11 @@ class Config:
     # MONGO_URI = "Your Azure Cosmos Mongo URI"
 
     DATABASE_NAME = "EmployeeSalaryDB"
+
+    # Azure deployment settings
+    HOST = os.getenv("HOST", "0.0.0.0")
+    PORT = int(os.getenv("PORT", os.getenv("WEBSITES_PORT", "8000")))
+    DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
     MODEL_PATH = os.path.join(
         os.getcwd(),

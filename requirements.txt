@@ -1,8 +1,8 @@
-Flask
-pandas
-numpy
-scikit-learn
-openpyxl
-pymongo
-flask-jwt-extended
-Werkzeug
+Flask==3.0.3
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+openpyxl==3.1.5
+pymongo==4.29.0
+flask-jwt-extended==4.6.3
+Werkzeug==3.0.3
