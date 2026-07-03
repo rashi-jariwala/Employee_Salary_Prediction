@@ -3,6 +3,10 @@ pandas==2.2.3
 numpy==1.26.4
 scikit-learn==1.5.2
 openpyxl==3.1.5
-pymongo==4.29.0
-flask-jwt-extended==4.6.3
+pymongo==4.13.2
+flask-jwt-extended==4.6.0
 Werkzeug==3.0.3
+python-dotenv==1.0.1
+gunicorn==23.0.0
+dnspython==2.6.1
+flask-cors==5.0.0

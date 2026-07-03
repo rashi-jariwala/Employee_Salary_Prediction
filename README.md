@@ -87,7 +87,7 @@ Before running the project, ensure you have:
    ```
 4. Open the app in your browser:
    ```text
-   http://127.0.0.1:5000
+   http://127.0.0.1:8000
    ```
 
 > The project currently expects the required Python packages to be installed and a local MongoDB instance to be available.
